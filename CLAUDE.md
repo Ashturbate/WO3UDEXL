@@ -9,7 +9,8 @@ This repository's public progress tracker is the static site in `site/`. Its sou
 - Treat the local planning workbook (`..\ash_tasks\XL_planning_sheets.xlsx`, when available) as a long-term wishlist, not proof that a feature is being worked on or will ship. The Nobuyuki Sanada outfit is the main character focus recorded so far.
 - Only describe work as active, ready to try, or complete when recent project notes support that status. Progress percentages are rough estimates; update them only when there is a clear reason and never describe them as measured completion.
 - Keep new character and outfit slot capacity separate from creating new characters or outfits. The capacity work has three smaller areas: character spaces, character-select categories, and outfit spaces.
-- Add new areas as top-level `streams`; add related smaller steps to that area's `substreams`. Give each one a stable lowercase-hyphenated `id`, valid `state`, integer `progress` from 0 to 100, player-friendly `summary` and `next`, and a longer `description`.
+- Add new areas as top-level `streams`; add related smaller steps to that area's `substreams`. Give each one a stable lowercase-hyphenated `id`, valid `state`, integer `progress` from 0 to 100, player-friendly `summary` and `activity`, and a longer `description`.
+- Write `activity` as a neutral description of current work, never an instruction for the reader. Use present-tense wording such as "Finalizing the work on Nobuyuki." The site labels it "Ongoing:", "Planned:", "Ready to test:", or "On hold:" based on the item's state.
 - Add a dated, short entry to `updates` when recording a meaningful change.
 
 ## Screenshots and privacy
